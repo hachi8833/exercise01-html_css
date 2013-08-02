@@ -1,3 +1,4 @@
+/* CSS3 */
 @charset "utf-8";
 
 /* for IE8 or lower */
@@ -24,3 +25,10 @@ border-bottom :solid 1px #1776D0;
 background: linear-gradient(#1141BA, #1776D0);
 }
 
+div#logo {
+  background-color: white;
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  width: 320px;
+} a { display: block; }
