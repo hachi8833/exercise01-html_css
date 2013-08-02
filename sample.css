@@ -12,11 +12,16 @@ margin:0px;
 text-align:left;
 }
 
+section {
+  width: 940px;
+  margin-left: 35px;
+}
+
 p {
   line-height: 1.5;
 }
 
-/* header */
+
 div.head {
 padding:25px;
 margin:0px;
@@ -32,6 +37,7 @@ div.logo {
   left: 40px;
   width: 320px;
   box-shadow: 5px 5px 5px #DDD;
+  margin-left: 32px;
 } a { display: block; }
 
 nav.menu {
@@ -53,7 +59,7 @@ a.button {
   color: white;
 }
 
-section.top {
-
+div#top {
   top: 100px;
+  background-color: #F5F5F0
 }
