@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* for IE8 or lower */
 article, aside, figure, figcaption, footer, header, hgroup, nav, section {
 display: block;
@@ -5,31 +7,16 @@ display: block;
 
 /* main css */
 body{
+margin:0px; 
 text-align:left;
 }
 
-#wrap{
-width:500px;
-margin:0 auto;
-text-align:left;
-border:solid 1px #333;
+p {
+  line-height: 1.5;
 }
 
-#head {
-padding:10px;
-border-bottom:solid 1px #333;
-}
-
-#navi {
-border-bottom:solid 1px #333;
-}
-
-.post {
-padding:10px;
-}
-
-#foot {
-border-top:solid 1px #333;
-text-align:center;
-padding:10px;
+div#head {
+padding:20px;
+margin:0px;
+border:solid 1px #33F;
 }
