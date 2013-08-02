@@ -1,3 +1,9 @@
+/* for IE8 or lower */
+article, aside, figure, figcaption, footer, header, hgroup, nav, section {
+display: block;
+}
+
+/* main css */
 body{
 text-align:center;
 }
