@@ -15,8 +15,12 @@ p {
   line-height: 1.5;
 }
 
+/* header */
 div#head {
-padding:20px;
+padding:25px;
 margin:0px;
-border:solid 1px #33F;
+border-top    :solid 1px #1141BA;
+border-bottom :solid 1px #1776D0;
+background: linear-gradient(#1141BA, #1776D0);
 }
+
