@@ -27,8 +27,33 @@ background: linear-gradient(#1141BA, #1776D0);
 
 div.logo {
   background-color: white;
-  position: absolute;
+
   top: 35px;
   left: 40px;
   width: 320px;
+  box-shadow: 5px 5px 5px #DDD;
 } a { display: block; }
+
+nav.menu {
+
+  top: 55px;
+  left: 335px;
+  border-radius: 0.5em;
+}
+
+li.button {
+  background: linear-gradient(#1141BA, #1776D0);
+  float: left;
+  list-style-type: none;
+  width: 100px;
+  height: 20px;
+}
+
+a.button {
+  color: white;
+}
+
+section.top {
+
+  top: 100px;
+}
