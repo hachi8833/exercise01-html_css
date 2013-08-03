@@ -53,7 +53,7 @@ div#shell {
 }
 
 .centering {
-
+  text-align: center;
 }
 
 /* header */
@@ -336,5 +336,87 @@ ul#skillset li {
 }
 
 #conditionsright {
-  width: 200px;
+  width: 380px;
+}
+
+h4.column {
+  margin-top: 13px;
+  border: 1px #CCCCCC solid;
+  background-color: #FCFCFC;
+  padding: 17px 0 17px 10px;
+}
+
+dl#condition {
+  margin: -20px -10px 15px;
+  padding: 0 10px 10px;
+}
+dl#condition dt {
+  width: 358px;
+  padding: 10px 10px;
+  color: #13957C;
+  font-weight: bold;
+  font-size: 95%;
+  line-height: 150%;
+  border-left: 1px #CCCCCC solid;
+  border-right: 1px #CCCCCC solid;
+}
+dl#condition dd {
+  font-size: 90%;
+  width: 358px;
+  margin-left: 0px;
+  padding: 0px 10px 10px;
+  line-height: 150%;
+  border-left: 1px #CCCCCC solid;
+  border-right: 1px #CCCCCC solid;
+  border-bottom: 1px #CCCCCC solid;
+}
+
+#faq {
+  border-left: 1px #CCCCCC solid;
+  border-right: 1px #CCCCCC solid;
+  border-top: 1px #CCCCCC solid;
+  padding-bottom: -20px;
+}
+
+dl#faqlist {
+  margin: 0px -10px 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+dl#faqlist dt {
+  width: 358px;
+  padding: 15px;
+  line-height: 150%;
+  list-style-type: none;
+}
+
+dl#faqlist dt:before { 
+  content:"Q";
+  color: white;
+  background-color: #1141BA;
+  padding: 8px;
+  text-indent: 20px;
+  border-radius: 3px;
+}
+
+dl#faqlist dd {
+  margin-left: 5px;
+  padding: 5px 10px 10px;
+  line-height: 150%;
+  border-bottom: 1px #CCCCCC solid;
+}
+
+dl#faqlist dd:before { 
+  content:"A";
+  color: white;
+  background-color: #19B095;
+  padding: 8px;
+  text-indent: 20px;
+  border-radius: 3px;
+}
+
+dl#faqlist dt div, dl#faqlist dd div {
+  margin-top: -20px;
+  margin-left: 40px;
 }
