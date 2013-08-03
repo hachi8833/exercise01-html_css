@@ -26,6 +26,15 @@ div#shell {
   clear: both;
 }
 
+.floatleft {
+  float:left;
+}
+
+
+.floatright {
+  float:right;
+}
+
 /* header */
 
 div.headpattern {
@@ -146,20 +155,23 @@ section#form {
 }
 
 #formleft {
-  width:600px;
-  float:left;
+  width:650px;
   }  
 #printright {
   width:260px;
-  float:right;
 }  
 
+#pictright {
+  margin-right: -25px;
+  padding-right: 0px;
+}
+
 section#aboutbps {
-  background-color: #E7E7DC;
+  background-color: #EBEBE3;
 }
 
 div#form1 {
-  background-color: #EEEDE6;
+  background-color: #EBEBE3;
   height: 400px;
 }
 
@@ -167,9 +179,21 @@ div#form1 {
   margin-top: 10px;
   margin-bottom: 15px;
   height: 22px;
-  width: 545px;
+  width: 595px;
+  border-top: #E0E0D0;
+  border-right: #E0E0D0;
+  border-bottom: #E0E0D0;
+  border-left: #E0E0D0;
 }
 
 #reason {
   height: 170px;
+}
+
+#option {
+  padding-top: 25px;
+}
+
+#submit {
+  padding-top: 10px;
 }

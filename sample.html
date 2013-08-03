@@ -53,7 +53,7 @@
   </section>
   <section id="form">
     <div class="outer">
-      <div id="formleft">
+      <div id="formleft" class="floatleft">
         <img src="img/title01.gif" height="20" width="416" alt="title01">
         <div id="form1" class="outer">
           <form action="sample_submit" method="get" accept-charset="utf-8">
@@ -70,19 +70,31 @@
               <textarea id="reason" class="input" name="reason"></textarea>
             </div>
             <div>
-              <img src="img/file.gif" height="16" width="96" alt="">
-              <input type="file" name="attach" >
-              <img src="img/sub_info.gif" height="28" width="195" alt="">
+              <div class="floatleft">
+                <img src="img/file.gif" height="16" width="96" alt="">
+              </div>
+              <div class="floatleft">
+                <img src="img/choosebutton.png" height="30" width="136" alt="">
+              </div>
+              <div class="floatright">
+                <img src="img/sub_info.gif" height="28" width="195" alt="">
+              </div>
             </div>
+            <div class="clear"></div>
             <div>
-              <img src="img/input.gif" height="16" width="175" alt="">
-              <input type="submit" name="cv" value="志望動機を送る!">
+              <div id="option" class="floatleft">
+                <img src="img/input.gif" height="16" width="175" alt="">
+              </div>
+              <div id="submit" class="floatright">
+                <img src="img/submitbutton.png" height="45" width="257" alt="">
+                              </div>
+              <div class="clear"></div>
             </div>
           </form>
         </div>
         <img src="img/info.gif" alt="">
       </div>
-      <div id="pictright">
+      <div id="pictright" class="floatright">
         <img src="img/hakase.jpg" alt="hakase">
       </div>
       <div class="clear"></div>
