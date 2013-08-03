@@ -6,29 +6,23 @@ article, aside, figure, figcaption, footer, header, hgroup, nav, section {
   display: block;
 }
 
-/* global css */
+/* main css */
 body{
   margin:0px; 
   text-align:left;
+}
+
+section {
+  width: 900px;
+  margin-left: 35px;
+  padding: 20px;
 }
 
 p {
   line-height: 1.5;
 }
 
-div#shell {
-  width: 940px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.clear {
-  clear: both;
-}
-
-/* header */
-
-div.headpattern {
+div.head {
   padding:25px;
   margin:0px;
   border-top    :solid 1px #1141BA;
@@ -36,24 +30,22 @@ div.headpattern {
   background: linear-gradient(#1141BA, #1776D0);
 }
 
-div#logo {
+div.logo {
   background-color: white;
-  margin-top: -15px;
-  width: 260px;
+  margin-top: -50px;
+  width: 270px;
   height: 100px;
   box-shadow: 5px 0px 3px #DDD;
-  margin-left: 15px;
+  margin-left: 32px;
   margin-bottom: 20px;
-  margin-right: -20px;
-  float: left;
-  /*display: inline-block;
-  _display: inline;*/
+  margin-right: -24px;
+  display: inline-block;
+  _display: inline;
 }
 
-div#topmenu {
-  float: left;
-  /*display: inline-block;
-  _display: inline;*/
+div.menu {
+  display: inline-block;
+  _display: inline;
 }
 
 li.button {
@@ -63,15 +55,10 @@ li.button {
   float: left;
   white-space: nowrap;
   list-style-type: none;
-  width: 128px;
+  width: 130px;
   height: 40px;
   margin: 0.5px;
   border-color: white;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
 
 #list1 {
@@ -97,10 +84,15 @@ div.second {
   text-transform: uppercase;
 }
 
-/* main */
+a.button {
+  color: white;
+  text-decoration: none;
+}
 
-div.outer {
-  padding: 25px;
+section#top {
+  padding: 0px;
+  padding-top: 100px
+  margin-bottom: 0px;
 }
 
 section#form {
@@ -108,15 +100,6 @@ section#form {
   background-color: #F6F6F0;
 }
 
-#formleft {
-  width:600px;
-  float:left;
-  }  
-#printright {
-  width:260px;
-  float:right;
-}  
-
-section#aboutbps {
+section.aboutbps {
   background-color: #E7E7DC;
 }
