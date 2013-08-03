@@ -15,12 +15,12 @@ text-align:left;
 section {
   width: 940px;
   margin-left: 35px;
+  padding: 20px;
 }
 
 p {
   line-height: 1.5;
 }
-
 
 div.head {
 padding:25px;
@@ -36,9 +36,10 @@ div.logo {
   top: 35px;
   left: 40px;
   width: 320px;
+
   box-shadow: 5px 5px 5px #DDD;
   margin-left: 32px;
-} a { display: block; }
+}
 
 nav.menu {
 
@@ -59,7 +60,16 @@ a.button {
   color: white;
 }
 
-div#top {
-  top: 100px;
+section#top {
+
   background-color: #F5F5F0
+}
+
+section#form {
+
+  background-color: #F6F6F0;
+}
+
+section.about {
+  background-color: #E7E7DC;
 }
