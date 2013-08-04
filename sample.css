@@ -1,14 +1,6 @@
 @charset "utf-8";
 /* for IE8 or lower */
-article,
-aside,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-nav,
-section { display: block }
+article, aside, figure, figcaption, footer, header, hgroup, nav, section { display: block }
 /* global css */
 
 body {
@@ -17,7 +9,7 @@ body {
   font-size : 86%;
 }
 
-p { line-height:  1.5 }
+p { line-height:  1.5; }
 
 h1 {
   font-family: 'Garamond';
@@ -35,12 +27,12 @@ div#shell {
   font-size: 120%;
 }
 
-.clear      { clear: both }
-.clear hr   { display: none }
-.floatleft  { float: left }
-.floatright { float: right }
-.centering  { text-align: center }
-.outer      { padding: 25px }
+.clear      { clear: both; }
+.clear hr   { display: none; }
+.floatleft  { float: left; }
+.floatright { float: right; }
+.centering  { text-align: center; }
+.outer      { padding: 25px; }
 
 /* header */
 
@@ -63,23 +55,23 @@ div#logo {
   width:            260px;
 }
 
-.hover { position: relative }
+.hover { position: relative; }
 
 .hover:before,
 .hover:after {
   background:           #777;
   box-shadow:           0 15px 10px #777;
-    -moz-box-shadow:    0 15px 10px #777;
-    -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow:    0 15px 10px #777;
+  -webkit-box-shadow: 0 15px 10px #777;
   content:              "";
   height:               60px;
   max-width:            260px;
   position:             absolute;
   transform:            rotate(-3dig);
-    -moz-transform:     rotate(-3dig);
-    -ms-transform:      rotate(-3dig);
-    -o-transform:       rotate(-3dig);
-    -webkit-transform:  rotate(-3dig);
+  -moz-transform:     rotate(-3dig);
+  -ms-transform:      rotate(-3dig);
+  -o-transform:       rotate(-3dig);
+  -webkit-transform:  rotate(-3dig);
   width:                10px;
   z-index:              -1;
 }
@@ -87,10 +79,10 @@ div#logo {
 .hover:after {
   height:              60px;
   transform:           rotate(3dig);
-    -moz-transform:    rotate(3dig);
-    -ms-transform:     rotate(3dig);
-    -o-transform:      rotate(3dig);
-    -webkit-transform: rotate(3dig);
+  -moz-transform:    rotate(3dig);
+  -ms-transform:     rotate(3dig);
+  -o-transform:      rotate(3dig);
+  -webkit-transform: rotate(3dig);
   width:               10px;
 }
 
@@ -116,7 +108,7 @@ ul.menu li.button a {
   text-decoration:  none;
 }
 
-ul.menu li.button:hover { background: #458AD2 }
+ul.menu li.button:hover { background: #458AD2; }
 
 #list1 {
   border-bottom-left-radius:  0.3em;
@@ -147,9 +139,9 @@ section#form {
   margin-top:       -10px;
 }
 
-#formleft { width: 650px }
+#formleft { width: 650px; }
 
-#printright { width: 260px }
+#printright { width: 260px; }
 
 #pictright {
   margin-right:   -25px;
@@ -157,7 +149,7 @@ section#form {
 }
 
 #aboutbps,
-#services { background-color: #EBEBE3 }
+#services { background-color: #EBEBE3; }
 
 div#form1 {
   background-color: #EBEBE3;
@@ -175,11 +167,11 @@ div#form1 {
   width:          595px;
 }
 
-#reason { height: 170px }
+#reason { height: 170px; }
 
-#option { padding-top: 25px }
+#option { padding-top: 25px; }
 
-#submit { padding-top: 10px }
+#submit { padding-top: 10px; }
 
 #wave {
   border-image: url("img/border.png") 15 round;
@@ -187,7 +179,7 @@ div#form1 {
   border-width: 10px;
 }
 
-#aboutarticle { width: 600px }
+#aboutarticle { width: 600px; }
 
 #aboutpic {
   border-bottom-width:  30px;
@@ -197,8 +189,8 @@ div#form1 {
   padding-top:          20px;
   padding:              10px;
   transform:            rotate(7dig);
-    -moz-transform:     rotate(7deg); /* firefox　*/
-    -webkit-transform:  rotate(7deg); /* chrome、safari　*/
+  -moz-transform:     rotate(7deg); /* firefox　*/
+  -webkit-transform:  rotate(7deg); /* chrome、safari　*/
   width:                200px;
 }
 
@@ -228,7 +220,7 @@ div#form1 {
   margin-bottom:    20px;
 }
 
-ul#job { margin-left: -45px }
+ul#job { margin-left: -45px; }
 
 ul#job li.button {
   background:       #F5F5F5;
@@ -247,11 +239,11 @@ ul#job li.button {
   width: 100px;
 }
 
-ul#job li.button:hover { background: white }
+ul#job li.button:hover { background: white; }
 
-li.first { margin-left: 0px }
+li.first { margin-left: 0px; }
 
-li.last { margin-right: 0px }
+li.last { margin-right: 0px; }
 
 dl#jobdescription {
   margin:   0 -10px 15px;
@@ -291,7 +283,7 @@ ul#skillset li {
 
 #jobsleft { }
 
-#conditionsright { width: 380px }
+#conditionsright { width: 380px; }
 
 h4.column {
   margin-top:       13px;
@@ -377,4 +369,72 @@ dl#faqlist dt div,
 dl#faqlist dd div {
   margin-top:   -20px;
   margin-left:  40px;
+}
+
+ul#footlink { margin-left: -45px; }
+
+ul#footlink li.button {
+  border-color:           #C5C5C5;
+  border-right-style:     solid;
+  border-right-width:     1px;
+  float:                  left;
+  font-size:              60%;
+  font-weight:            bold;
+  list-style-type:        none;
+  margin-left:            10px;
+  margin-top:             60px;
+  padding-right:          10px;
+  text-align:             center;
+  white-space:            nowrap;
+}
+
+ul#footlink li.button:hover { background: #F2F2F2; }
+
+ul#footlink li.button a {
+  color:            #414141;
+  text-decoration:  none;
+}
+
+ul#footlink li.last { border: 0px; }
+
+ul#backtotop { margin-left: -45px; }
+
+ul#backtotop li.button {
+  background:         #F5F5F5;
+  border-color:       #C5C5C5;
+  border-left-style:  solid;
+  border-right-style: solid;
+  border-top-style:   solid;
+  border-width:       1px;
+  float:              left;
+  font-weight:        bold;
+  height:             40px;
+  list-style-type:    none;
+  margin-left:        435px;
+  margin-top:         -60px;
+  padding-bottom:     7px;
+  padding-top:        15px;
+  text-align:         center;
+  white-space:        nowrap;
+  width:              130px;
+}
+
+ul#backtotop li.button a {
+  color:            #414141;
+  text-decoration:  none;
+}
+
+.footpattern {
+  background-color: #F2F2F2;
+  height:           250px;
+  margin-bottom:    0px;
+  margin-top:       0px;
+}
+
+#copyright {
+  color:         #7A7A7A;
+  font-family:   monospace;
+  font-size:     50%;
+  padding-left:  30px;
+  padding-top:   20px;
 }
